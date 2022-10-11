@@ -3,7 +3,6 @@ import { Request, Response } from "express";
 import { iChatMsgCommandConstructor } from "../../Classes/ChatMsgCommandConstructor";
 import { iChatMsgCommandInterpreter } from "../../Classes/ChatMsgCommandInterpreter";
 import { iChatMsgCommand } from "../../Interfaces/iChatMsgCommand";
-//Test Private Commit
 export class Disk implements iChatMsgCommand{
     private _cmdConstructor: iChatMsgCommandConstructor;
     constructor(cmdConstructor: iChatMsgCommandConstructor){
