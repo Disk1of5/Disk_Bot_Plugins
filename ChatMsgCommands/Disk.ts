@@ -21,7 +21,7 @@ export class Disk implements iChatMsgCommand{
                 chatMsgCommandInterpreter.command =="!disk");
     }
     async process(channel: string, user: string, message: string, msg: PrivateMessage, chatMsgCommandInterpreter: iChatMsgCommandInterpreter) {
-            this._cmdConstructor.getChatClient().say(channel,"Disk Test");
+           await this._cmdConstructor.getChatClient().say(channel,"Disk Test");
 
         
     }
